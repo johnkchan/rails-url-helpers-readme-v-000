@@ -1,3 +1,7 @@
 <% @posts.each do |post| %>
+<<<<<<< HEAD
   <div><%= link_to post.title, post_path(post) %></div>
+=======
+  <div><%= link_to post.title, post_path(post.id) %></div>
+>>>>>>> f77c147017e487c580b554fd2258496cc202010e
 <% end %>
